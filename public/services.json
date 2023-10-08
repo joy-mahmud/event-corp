@@ -1,0 +1,51 @@
+[
+    {
+      "id": "1",
+      "title": "Conference Planning",
+      "img": "https://i.ibb.co/rwJN8zM/conference-meeting.jpg",
+      "price": "$5,000 - $15,000",
+      "shortDescription": "Expert planning and execution of corporate conferences.",
+      "longDescription": "Our experienced team will handle every aspect of your corporate conference, from venue selection and logistics to speaker coordination and attendee engagement. We ensure your conference is a resounding success."
+    },
+    {
+      "id": "2",
+      "title": "Product Launch Events",
+      "img": "https://i.ibb.co/jbDsn1b/product-launch.jpg",
+      "price": "$8,000 - $20,000",
+      "shortDescription": "Spectacular product launches that leave a lasting impression.",
+      "longDescription": "We specialize in creating memorable product launch events that captivate your audience. From conceptualizing themes to creating stunning visual presentations, we'll make sure your product shines."
+    },
+    {
+      "id": "3",
+      "title": "Team-building Workshops",
+      "img": "https://i.ibb.co/BPD26J4/team-building.jpg",
+      "price": "$3,000 - $8,000",
+      "shortDescription": "Engaging workshops to enhance team collaboration and morale.",
+      "longDescription": "Our team-building workshops are designed to boost team cohesion and productivity. Through interactive activities and expert facilitation, we create a positive and motivated work environment."
+    },
+    {
+      "id": "4",
+      "title": "Trade Show Management",
+      "img": "https://i.ibb.co/p0SKnMK/trade-show.jpg",
+      "price": "$10,000 - $25,000",
+      "shortDescription": "Efficient management of trade shows to maximize your brand exposure.",
+      "longDescription": "We take care of every detail in trade show management, including booth design, logistics, and lead generation. Your brand will stand out in the competitive trade show environment."
+    },
+    {
+      "id": "5",
+      "title": "Seminar Organization",
+      "img": "https://i.ibb.co/M6mx9Ts/seminar-organizations.jpg",
+      "price": "$4,000 - $12,000",
+      "shortDescription": "Seamless planning and execution of informative seminars.",
+      "longDescription": "Our seminar organization services ensure that your informational events run smoothly. From securing speakers to managing registrations, we make knowledge-sharing a breeze."
+    },
+    {
+      "id": "6",
+      "title": "Corporate Retreats",
+      "img": "https://i.ibb.co/YTDF8kY/corporate-retreats.jpg",
+      "price": "$7,000 - $18,000",
+      "shortDescription": "Relaxing and productive retreats to rejuvenate your team.",
+      "longDescription": "Our corporate retreats provide a perfect blend of relaxation and team-building activities. Escape the office, bond with colleagues, and return refreshed and motivated."
+    }
+  ]
+  

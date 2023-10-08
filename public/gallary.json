@@ -1,0 +1,43 @@
+[
+    {
+      "img": "https://i.ibb.co/Sstb92m/event1.jpg",
+      "title": "Annual Sales Conference",
+      "place": "Grand Convention Center"
+    },
+    {
+      "img": "https://i.ibb.co/kHrH171/event2.jpg",
+      "title": "Product Launch Gala",
+      "place": "Luxury Hotel Ballroom"
+    },
+    {
+      "img": "https://i.ibb.co/VwD7bST/event3.jpg",
+      "title": "Tech Summit 2022",
+      "place": "Innovation Hub"
+    },
+    {
+      "img": "https://i.ibb.co/wrH24yV/event4.jpg",
+      "title": "Employee Appreciation Day",
+      "place": "Company Headquarters"
+    },
+    {
+      "img": "https://i.ibb.co/g9JBjfS/event5.jpg",
+      "title": "International Trade Fair",
+      "place": "Exhibition Center"
+    },
+    {
+      "img": "https://i.ibb.co/Fg1Qv1p/event6.jpg",
+      "title": "Leadership Retreat",
+      "place": "Mountain Resort"
+    },
+    {
+      "img": "https://i.ibb.co/5WR47FV/event7.jpg",
+      "title": "Customer Appreciation Dinner",
+      "place": "Elegant Banquet Hall"
+    },
+    {
+      "img": "https://i.ibb.co/ZLF16wD/event8.jpg",
+      "title": "Financial Symposium",
+      "place": "Downtown Conference Center"
+    }
+  ]
+  

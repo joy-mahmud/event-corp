@@ -1,0 +1,70 @@
+{
+    "companyName": "Corporate Events Pro",
+    "description": "Your Trusted Partner for Exceptional Corporate Events",
+    "contact": {
+      "email": "info@corporateeventspro.com",
+      "phone": "+1 (123) 456-7890",
+      "address": "123 Main Street, Suite 456, Cityville, USA"
+    },
+    "services": [
+      "Conference Planning",
+      "Product Launch Events",
+      "Team-building Workshops",
+      "Trade Show Management",
+      "Seminar Organization",
+      "Corporate Retreats"
+    ],
+    "team": [
+      {
+        "name": "John Smith",
+        "position": "CEO",
+        "email": "john@corporateeventspro.com"
+      },
+      {
+        "name": "Jane Doe",
+        "position": "Event Coordinator",
+        "email": "jane@corporateeventspro.com"
+      },
+      {
+        "name": "Mark Johnson",
+        "position": "Marketing Manager",
+        "email": "mark@corporateeventspro.com"
+      }
+    ],
+    "portfolio": [
+      {
+        "eventName": "Annual Tech Summit 2022",
+        "eventDate": "2022-09-15",
+        "client": "Tech Innovations Inc.",
+        "description": "A flagship technology conference showcasing the latest innovations and trends.",
+        "location": "City Convention Center"
+      },
+      {
+        "eventName": "Product Launch Gala",
+        "eventDate": "2022-11-10",
+        "client": "GlobalTech Solutions",
+        "description": "An extravagant product launch event for GlobalTech's cutting-edge product line.",
+        "location": "Luxury Hotel Grand Ballroom"
+      },
+      {
+        "eventName": "Team-building Retreat",
+        "eventDate": "2022-07-20",
+        "client": "Acme Corporation",
+        "description": "A fun and engaging team-building retreat set in a serene countryside resort.",
+        "location": "Tranquil Meadows Resort"
+      }
+    ],
+    "testimonials": [
+      {
+        "author": "Sarah Johnson",
+        "position": "Marketing Director, Tech Innovations Inc.",
+        "comment": "Corporate Events Pro exceeded our expectations in organizing our annual tech summit. Their attention to detail and creativity made it a huge success."
+      },
+      {
+        "author": "David Miller",
+        "position": "CEO, GlobalTech Solutions",
+        "comment": "The Product Launch Gala organized by Corporate Events Pro was flawless. It was a night to remember, and our product gained massive attention."
+      }
+    ]
+  }
+  
