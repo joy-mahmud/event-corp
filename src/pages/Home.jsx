@@ -2,6 +2,8 @@
 
 import banner from "../../public/assets/banner.jpg"
 import Contact from "../components/Contact";
+import Testimony from "../components/Testimony";
+
 import Services from "./Services";
 const Home = () => {
   
@@ -16,7 +18,9 @@ const Home = () => {
                 </div>
             </div>
             <Services></Services>
+            <Testimony></Testimony>
            <Contact></Contact>
+           
         </div>
     );
 };

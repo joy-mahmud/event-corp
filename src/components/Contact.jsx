@@ -1,7 +1,7 @@
 
 import { FiPhoneCall } from 'react-icons/fi';
 import { CiMail } from 'react-icons/ci';
-import gmap from "../../public/assets/gmap.png"
+
 
 const Contact = () => {
     return (
