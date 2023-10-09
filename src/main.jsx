@@ -15,6 +15,7 @@ import ServiceDetails from './pages/ServiceDetails';
 import Services from './pages/Services';
 import ErrorPage from './pages/ErrorPage';
 import Gallary from './pages/Gallary';
+import Blog from './pages/Blog';
 
 const router = createBrowserRouter([
   {
@@ -44,6 +45,11 @@ const router = createBrowserRouter([
           path:'/gallary',
           element:<Gallary></Gallary>,
           loader:()=>fetch("/gallary.json")
+        },
+        {
+          path:'/blog',
+          element:<Blog></Blog>,
+          loader:()=>fetch('/blog.json')
         },
         {
           path:'/serviceDetails/:id',

@@ -1,0 +1,68 @@
+[
+    [
+        {
+            "id": 1,
+            "title": "Define Conference Goals and Objectives:",
+            "description": "Clearly define the purpose and objectives of the conference.Determine what you want to achieve, such as knowledge sharing, networking sales or education."
+        },
+        {
+            "id": 2,
+            "title": "Create a Budget:",
+            "description": "Establish a budget that includes all expenses and revenue sources.Allocate funds for venue, speakers, marketing, catering, technology, and other necessities."
+        },
+        {
+            "id": 3,
+            "title": "Select a Date and Venue:",
+            "description": "Choose a suitable date and time for the conference.Select a venue that can accommodate the expected number of attendees and offers the necessary facilities."
+        },
+        {
+            "id": 4,
+            "title": "Speakers and Content:",
+            "description": "Set up an online registration system for attendees.Determine ticket prices and create various ticket types (e.g., early bird, regular, VIP).Provide secure payment options."
+        }
+    ],
+    [
+        {
+            "id": 1,
+            "title": "Define Conference Goals and Objectives:",
+            "description": "Clearly define the purpose and objectives of the conference.Determine what you want to achieve, such as knowledge sharing, networking sales or education."
+        },
+        {
+            "id": 2,
+            "title": "Create a Budget:",
+            "description": "Establish a budget that includes all expenses and revenue sources.Allocate funds for venue, speakers, marketing, catering, technology, and other necessities."
+        },
+        {
+            "id": 3,
+            "title": "Select a Date and Venue:",
+            "description": "Choose a suitable date and time for the conference.Select a venue that can accommodate the expected number of attendees and offers the necessary facilities."
+        },
+        {
+            "id": 4,
+            "title": "Speakers and Content:",
+            "description": "Set up an online registration system for attendees.Determine ticket prices and create various ticket types (e.g., early bird, regular, VIP).Provide secure payment options."
+        } 
+    ],
+    [
+        {
+            "id": 1,
+            "title": "Define Conference Goals and Objectives:",
+            "description": "Clearly define the purpose and objectives of the conference.Determine what you want to achieve, such as knowledge sharing, networking sales or education."
+        },
+        {
+            "id": 2,
+            "title": "Create a Budget:",
+            "description": "Establish a budget that includes all expenses and revenue sources.Allocate funds for venue, speakers, marketing, catering, technology, and other necessities."
+        },
+        {
+            "id": 3,
+            "title": "Select a Date and Venue:",
+            "description": "Choose a suitable date and time for the conference.Select a venue that can accommodate the expected number of attendees and offers the necessary facilities."
+        },
+        {
+            "id": 4,
+            "title": "Speakers and Content:",
+            "description": "Set up an online registration system for attendees.Determine ticket prices and create various ticket types (e.g., early bird, regular, VIP).Provide secure payment options."
+        } 
+    ]
+]

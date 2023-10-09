@@ -16,7 +16,7 @@ const Navbar = () => {
         <li className="text-[18px] font-medium"><Link to={'/services'}>Services</Link></li>
         <li className="text-[18px] font-medium"><Link to={'/gallary'}>gallary</Link></li>
         <li className="text-[18px] font-medium"><Link to={'/blog'}>Blog</Link></li>
-        <li  className="text-[18px] font-medium"><Link to={'/contact'}>Contact Us</Link></li>
+      
        
     
         
@@ -43,7 +43,7 @@ const Navbar = () => {
                         }
                     </ul>
                 </div>
-                <a className="font-semibold text-3xl">CorpEvent<span className="bg-red-500 rounded-lg px-2 text-white">Pro</span> </a>
+                <a className="font-semibold  text-[16px] md:text-3xl lg:text-3xl">CorpEvent<span className="bg-red-500 rounded-lg px-2 text-white">Pro</span> </a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -56,8 +56,10 @@ const Navbar = () => {
                 {
                     user ? <>
                     
-                        {user.displayName}<img className="w-7 ml-2 rounded-full" src={`${user.photoURL}`}></img>
-                        <a onClick={handleSignOut} className="btn btn-sm ml-2">Log Out</a>
+                        <div className="flex justify-items-end items-center text-[12px] lg:text-[14px]">
+                        {user.displayName}<img className="w-7 h-7 md:w-7 md:h-7 lg:h-7 lg:w-7 ml-2 rounded-full" src={`${user.photoURL}`}></img>
+                        </div>
+                        <a onClick={handleSignOut} className="btn btn-sm ml-1 md:ml-2 lg:ml-2">Log Out</a>
                     </> : <Link to="/login"><button className="btn btn-sm">Log in</button></Link>
                 }
 
