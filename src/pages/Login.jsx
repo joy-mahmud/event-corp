@@ -2,6 +2,10 @@ import { useContext } from "react";
 
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../components/AuthProvider";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
 
 
 const Login = () => {
@@ -15,25 +19,36 @@ const Login = () => {
         e.preventDefault();
         const password = e.target.password.value;
         const email = e.target.email.value;
-        console.log(email,password);
-
+    
         signInUser(email,password)
-        .then(result =>{
-            console.log(result.user)
+        .then(() =>{
+          
             e.target.reset()
-           navigate(location?.state?location.state:"/")
+            toast("you logged in successfully")
+            setTimeout(function() {
+                navigate(location?.state?location.state:"/")
+              }, 2000);
+           
 
         })
         .catch(error =>{
-            console.log(error.message)
+            toast("invalid email or password! please enter correct one")
         })
-        signInWithGoogle()
-        .then(result=>{
-            navigate(location?.state?location.state:"/")
-        })
-        .catch(error=>console.error(error))
+
 
     }
+   
+    const handleGoogleSignIn =()=>{
+        signInWithGoogle()
+        .then(result=>{
+            toast("you logged in successfully")
+            setTimeout(function() {
+                navigate(location?.state?location.state:"/")
+              }, 2000);
+        })
+        .catch(()=>toast("something goes wrong!"))
+    }
+
     return (
         <div className="hero min-h-screen bg-base-200">
             <div className="hero-content flex-col">
@@ -60,14 +75,17 @@ const Login = () => {
                         </div>
                         <div className="form-control mt-6">
                             <button className="btn btn-primary">Login</button>
+                            <ToastContainer />
                         </div>
                         <label className="label">
-                        <Link to={'/register'}><p href="#" className="label-text-alt link link-hover">Don't have an account? please register</p></Link>
+                        <Link to={'/register'}><p href="#" className="label-text-alt link link-hover text-[16px] mt-2">Don't have an account? please register</p></Link>
                             </label>
-                        <button onClick={signInWithGoogle} className="btn text-red-500">Sign in with google</button>
+                            <button onClick={handleGoogleSignIn} className="btn text-red-500">Sign in with google</button>    
                     </form>
+                    
                 </div>
             </div>
+            
         </div>
     );
 };

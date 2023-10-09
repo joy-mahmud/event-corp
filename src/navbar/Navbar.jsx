@@ -2,9 +2,6 @@ import { useContext } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { AuthContext } from "../components/AuthProvider";
 
-
-
-
 const Navbar = () => {
     const location = useLocation()
    
@@ -12,14 +9,16 @@ const Navbar = () => {
     const userinfo = useContext(AuthContext)
     const { user, logOut } = userinfo;
 
+    
+
     const navLinks = <>
         <li className="text-[18px] font-medium"><Link to={'/'}>Home</Link></li>
         <li className="text-[18px] font-medium"><Link to={'/services'}>Services</Link></li>
         <li className="text-[18px] font-medium"><Link to={'/gallary'}>gallary</Link></li>
         <li className="text-[18px] font-medium"><Link to={'/blog'}>Blog</Link></li>
-        <li className="text-[18px] font-medium"><Link to={'/contact'}>Contact Us</Link></li>
+        <li  className="text-[18px] font-medium"><Link to={'/contact'}>Contact Us</Link></li>
        
-       
+    
         
     </>
     const handleSignOut = () => {
@@ -29,6 +28,7 @@ const Navbar = () => {
             })
             .catch(error => console.error(error))
     }
+
 
     return (
         <div className="navbar bg-base-100 container mx-auto">

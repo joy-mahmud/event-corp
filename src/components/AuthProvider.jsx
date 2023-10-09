@@ -1,5 +1,5 @@
 import { createContext, useEffect, useState } from "react";
-import { createUserWithEmailAndPassword, onAuthStateChanged, signInWithEmailAndPassword, signOut,GoogleAuthProvider,signInWithPopup  } from "firebase/auth";
+import { createUserWithEmailAndPassword,GoogleAuthProvider,signInWithPopup, onAuthStateChanged, signInWithEmailAndPassword, signOut, } from "firebase/auth";
 import PropTypes from 'prop-types'; 
 import auth from "../firebase/firebase.config";
 
@@ -7,8 +7,8 @@ import auth from "../firebase/firebase.config";
 //creating context api
 export const AuthContext = createContext(null)
 
-
 const Googleprovider = new GoogleAuthProvider();
+
 
 
 const AuthProvider = ({children}) => {
@@ -16,6 +16,7 @@ const AuthProvider = ({children}) => {
    const [user,setUser] = useState(null)
    const [loading,setLoading] = useState(true)
    const [servicedata, setServiceData] = useState([])
+  
    
    const createUser = (email,password)=>{
         setLoading(true)
@@ -28,7 +29,10 @@ const AuthProvider = ({children}) => {
    }
 
    const signInWithGoogle = ()=>{
-    return signInWithPopup(auth, Googleprovider)
+    if(!user){
+        return signInWithPopup(auth, Googleprovider)
+    }
+    
    }
 
    const logOut = ()=>{
@@ -36,15 +40,16 @@ const AuthProvider = ({children}) => {
      return signOut(auth)
    }
    useEffect(()=>{
+    fetch("../../public/services.json")
+            .then(res => res.json())
+            .then(data => setServiceData(data))
         const unSubscribe = onAuthStateChanged(auth,currentUser=>{
             console.log('current value of the current user',currentUser)
             setUser(currentUser)
             setLoading(false)
 
         })
-        fetch("../../public/services.json")
-            .then(res => res.json())
-            .then(data => setServiceData(data))
+        
         return ()=>{
             unSubscribe();
         }
